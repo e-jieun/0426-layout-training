@@ -45,12 +45,30 @@
       /* width: 8vw; */
       /* height: 8vw; */
     /* } */
+    #text{
+      width: 30vw;
+      height: 12.5vh;
+      position: absolute;
+      right: 20vw;
+      top: 38vh;
+      color: #c4c4c4;
+    }
+    #text>div:nth-child(1){
+      font-size: 2rem;
+    }
+    #text>div:nth-child(2){
+      font-size: xx-small;
+    }
   </style>
 </head>
 
 <body>
   <div id="root">
     <!-- 가로폭 1/4 크기 -->
+    <div id="text">
+      <div>lorem ipsum</div>
+      <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id quam quaerat nihil debitis nemo beatae deserunt, nobis dolor porro ea voluptate sit aliquam quo ullam eius explicabo vitae. Veniam, architecto?</div>
+    </div>
     <div id="con">
       <div id="element"></div>
       <!-- element의 1/3 크기 -->
@@ -134,7 +152,7 @@
     }
     // 값이 숫자면 제어할 수 있다
     // 문자열 숫자 형태라면 숫자로 변형할 수 있다
-    // 값을 문자열을 제외한 숫자만으로 가져와야 연산이 가능한데, 함수를 사용해서 대체해주는 것 같음
+    // 값을 문자열을 제외한 숫자만으로 가져와야 연산이 가능한데, 변수를 사용해서 대체해주는 것 같음
     </script>
 </body>
 
